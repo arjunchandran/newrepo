@@ -1,0 +1,51 @@
+[2019-04-25 12:34:19.313] [sharedprocess] [info] main {"machineId":"ff337d180e046f918c7f89296b7d0026fb4e24fb0f29f6bc7d83d59a6fbd1f61"}
+[2019-04-25 12:34:19.350] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:19.357] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:19.363] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:19.424] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:19.429] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:19.431] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:19.579] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:20.146] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:20.149] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:20.152] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:20.158] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:34:20.277] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:20.281] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:20.283] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-25 12:34:59.328] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-04-25 12:35:16.225] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-04-25 12:35:16.226] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:35:17.417] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-04-25 12:35:17.418] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:35:20.449] [sharedprocess] [info] Installing extension: redhat.java
+[2019-04-25 12:35:20.450] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:35:30.645] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2019-04-25 12:35:30.647] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:35:34.679] [sharedprocess] [info] Installing extension: ecmel.vscode-html-css
+[2019-04-25 12:35:34.680] [sharedprocess] [info] Scanned user extensions: 0
+[2019-04-25 12:35:45.996] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/a1a6be4a-7ecb-4af4-9484-da6ff12a7163
+[2019-04-25 12:35:47.113] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.ms-vscode.cpptools-0.22.1: ms-vscode.cpptools
+[2019-04-25 12:35:47.113] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/ms-vscode.cpptools-0.22.1
+[2019-04-25 12:35:47.116] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2019-04-25 12:35:47.133] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2019-04-25 12:36:03.703] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner /tmp/e5a929a9-f522-4d98-87fe-03773ec34297
+[2019-04-25 12:36:04.823] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.formulahendry.code-runner-0.9.8: formulahendry.code-runner
+[2019-04-25 12:36:04.823] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/formulahendry.code-runner-0.9.8
+[2019-04-25 12:36:04.824] [sharedprocess] [info] Installation completed. formulahendry.code-runner
+[2019-04-25 12:36:04.835] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner
+[2019-04-25 12:36:04.906] [sharedprocess] [info] Downloaded extension: ecmel.vscode-html-css /tmp/9dab9953-84f7-409d-a7da-ee35b521d3f0
+[2019-04-25 12:36:06.025] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.ecmel.vscode-html-css-0.2.0: ecmel.vscode-html-css
+[2019-04-25 12:36:06.034] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/ecmel.vscode-html-css-0.2.0
+[2019-04-25 12:36:06.035] [sharedprocess] [info] Installation completed. ecmel.vscode-html-css
+[2019-04-25 12:36:06.039] [sharedprocess] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2019-04-25 12:36:19.805] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/e5f0ba05-25fe-4ac4-9394-f5d9ede41721
+[2019-04-25 12:36:21.539] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.ms-python.python-2019.4.11987: ms-python.python
+[2019-04-25 12:36:21.539] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/ms-python.python-2019.4.11987
+[2019-04-25 12:36:21.543] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-04-25 12:36:21.558] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-04-25 12:36:36.256] [sharedprocess] [info] Downloaded extension: redhat.java /tmp/b666c694-e65e-48d3-a83f-63ecae7a8981
+[2019-04-25 12:36:37.196] [sharedprocess] [info] Extracted extension to /home/user/.vscode-oss/extensions/.redhat.java-0.43.0: redhat.java
+[2019-04-25 12:36:37.207] [sharedprocess] [info] Renamed to /home/user/.vscode-oss/extensions/redhat.java-0.43.0
+[2019-04-25 12:36:37.208] [sharedprocess] [info] Installation completed. redhat.java
+[2019-04-25 12:36:37.217] [sharedprocess] [info] Extensions installed successfully: redhat.java

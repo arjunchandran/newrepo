@@ -1,0 +1,162 @@
+Xsession: X session started for user at Sun 16 Feb 2020 11:49:50 PM EST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/user/.Xauthority
+localuser:user being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=user
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/user
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=user
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting GDM_LANG=en_US.utf8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/user/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/user
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/user
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/usr/local/share/:/usr/share/
+** Message: 23:49:53.000: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+x-session-manager[943]: WARNING: Unable to find provider '' of required component 'dock'
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+Cannot read '/var/log/kern.log'
+Initializing caja-xattr-tags extension
+
+(mate-panel:1088): GLib-GObject-CRITICAL **: 23:50:02.068: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:1088): GLib-GObject-CRITICAL **: 23:50:02.159: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:1088): GLib-GObject-CRITICAL **: 23:50:02.161: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:1088): GLib-GObject-CRITICAL **: 23:50:02.163: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-panel:1088): GLib-GObject-CRITICAL **: 23:50:02.361: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(mate-power-manager:1174): Gdk-CRITICAL **: 23:50:03.637: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+blueman-applet version 2.0.8 starting
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 175, in activate_name_owner
+    return self.get_name_owner(bus_name)
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 361, in get_name_owner
+    's', (bus_name,), **keywords)
+  File "/usr/lib/python3/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.bluez': no such name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 121, in <module>
+    BluemanApplet()
+  File "/usr/bin/blueman-applet", line 63, in __init__
+    self.Plugins.Load()
+  File "/usr/lib/python3/dist-packages/blueman/main/PluginManager.py", line 90, in Load
+    __import__(self.module_path.__name__ + ".%s" % plugin, None, None, [])
+  File "/usr/lib/python3/dist-packages/blueman/plugins/applet/AuthAgent.py", line 9, in <module>
+    import blueman.main.applet.BluezAgent as BluezAgent
+  File "/usr/lib/python3/dist-packages/blueman/main/applet/BluezAgent.py", line 23, in <module>
+    from blueman.bluez.Agent import Agent, AgentMethod
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Agent.py", line 48, in <module>
+    class Agent(dbus.service.Object):
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Agent.py", line 56, in Agent
+    @AgentMethod
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Agent.py", line 38, in AgentMethod
+    if BlueZInterface.get_interface_version()[0] < 5:
+  File "/usr/lib/python3/dist-packages/blueman/bluez/BlueZInterface.py", line 16, in get_interface_version
+    obj = dbus.SystemBus().get_object('org.bluez', '/')
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 241, in get_object
+    follow_name_owner_changes=follow_name_owner_changes)
+  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 248, in __init__
+    self._named_service = conn.activate_name_owner(bus_name)
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 180, in activate_name_owner
+    self.start_service_by_name(bus_name)
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 278, in start_service_by_name
+    'su', (bus_name, flags)))
+  File "/usr/lib/python3/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+dbus.exceptions.DBusException: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Gtk-Message: 23:50:05.728: Failed to load module "atk-bridge"
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called fill
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called position
+  builder.add_from_file(ui_filename)
+Sections: ['Global']
+Layouts: ['us']
+Variants: ['']
+Options: []
+['Global']
+Lxkeymap autostart running...
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Parent pid 1325, child pid 1331
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Warning: skipping pango for private /etc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1331, the first child process inside the sandbox
+Error: no valid sandbox
+Warning: skipping asound.conf for private /etc
+Warning: skipping pki for private /etc
+Warning: skipping crypto-policies for private /etc
+Warning fcopy: skipping /etc/alternatives/ex.da.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/ex.ja.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/ex.pl.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/ex.ru.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/faked.sv.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/fakeroot.sv.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/vi.da.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/vi.ja.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/vi.pl.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/vi.ru.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/view.da.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/view.ja.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/view.pl.1.gz, cannot find inode
+Warning fcopy: skipping /etc/alternatives/view.ru.1.gz, cannot find inode
+Private /etc installed in 1584.06 ms
+Post-exec seccomp protector enabled
+Seccomp list in: @clock,@cpu-emulation,@debug,@module,@obsolete,@raw-io,@reboot,@resources,@swap,acct,add_key,bpf,fanotify_init,io_cancel,io_destroy,io_getevents,io_setup,io_submit,ioprio_set,kcmp,keyctl,mount,name_to_handle_at,nfsservctl,ni_syscall,open_by_handle_at,personality,pivot_root,process_vm_readv,ptrace,remap_file_pages,request_key,setdomainname,sethostname,syslog,umount,umount2,userfaultfd,vhangup,vmsplice, check list: @default-keep, prelist: adjtimex,clock_adjtime,clock_settime,settimeofday,modify_ldt,lookup_dcookie,perf_event_open,process_vm_writev,delete_module,finit_module,init_module,_sysctl,afs_syscall,create_module,get_kernel_syms,getpmsg,putpmsg,query_module,security,sysfs,tuxcall,uselib,ustat,vserver,ioperm,iopl,kexec_load,kexec_file_load,reboot,set_mempolicy,migrate_pages,move_pages,mbind,swapon,swapoff,acct,add_key,bpf,fanotify_init,io_cancel,io_destroy,io_getevents,io_setup,io_submit,ioprio_set,kcmp,keyctl,mount,name_to_handle_at,nfsservctl,open_by_handle_at,personality,pivot_root,process_vm_readv,ptrace,remap_file_pages,request_key,setdomainname,sethostname,syslog,umount2,userfaultfd,vhangup,vmsplice,
+]0;firejail /usr/bin/firefox Child process initialized in 4142.69 ms
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1331, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox ]0;firejail /usr/bin/firefox Child process initialized in 14.40 ms
+
+** (mate-terminal:1814): CRITICAL **: 23:54:32.776: terminal_window_remove_screen: assertion 'gtk_widget_get_toplevel (GTK_WIDGET (screen)) == GTK_WIDGET (window)' failed

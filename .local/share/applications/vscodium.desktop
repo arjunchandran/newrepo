@@ -1,0 +1,21 @@
+# converted by firecfg
+[Desktop Entry]
+Name=VSCodium
+Comment=Code Editing. Redefined.
+GenericName=Text Editor
+Exec=vscodium --unity-launch %F
+Icon=com.visualstudio.code.oss
+Type=Application
+StartupNotify=false
+StartupWMClass=VSCodium
+Categories=Utility;TextEditor;Development;IDE;
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
+Keywords=vscode;
+
+X-Desktop-File-Install-Version=0.23
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=vscodium --new-window %F
+Icon=com.visualstudio.code.oss
